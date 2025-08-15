@@ -4,6 +4,11 @@
 This project is an Arabic Question Answering (QA) system that allows users to ask questions in Arabic and receive accurate answers from a large document corpus.  
 It combines information retrieval techniques with state-of-the-art NLP models for Arabic.
 
+👩‍💻 Authors
+* Alaa Saleem – 1200001
+* Jamila Fawaqa – 1200435
+* Hala Gholeh – 1201418
+
 ## 🛠 What We Did
 - Collected and preprocessed Arabic documents (tokenization, stopword removal, stemming).  
 - Built an inverted index for fast document retrieval.  
