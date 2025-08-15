@@ -7,7 +7,7 @@ It combines information retrieval techniques with state-of-the-art NLP models fo
 👩‍💻 Authors
 * Alaa Saleem – 1200001
 * Jamila Fawaqa – 1200435
-* Hala Gholeh – 1201418
+* [Hala Gholeh](https://github.com/HalaGholeh) – 1201418
 
 ## 🛠 What We Did
 - Collected and preprocessed Arabic documents (tokenization, stopword removal, stemming).  
