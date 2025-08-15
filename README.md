@@ -5,7 +5,7 @@ This project is an Arabic Question Answering (QA) system that allows users to as
 It combines information retrieval techniques with state-of-the-art NLP models for Arabic.
 
 👩‍💻 Authors
-* Alaa Saleem – 1200001
+* [Alaa Saleem](https://github.com/alaasaleem) – 1200001
 * Jamila Fawaqa – 1200435
 * [Hala Gholeh](https://github.com/HalaGholeh) – 1201418
 
