@@ -6,7 +6,7 @@ It combines information retrieval techniques with state-of-the-art NLP models fo
 
 ## 👩‍💻 Team Members
 * [Alaa Saleem](https://github.com/alaasaleem) – 1200001
-* Jamila Fawaqa – 1200435
+* [Jamila Fawaqa](https://github.com/JamilaFawaqa) – 1200435
 * [Hala Gholeh](https://github.com/HalaGholeh) – 1201418
 
 ## 🛠 What We Did
