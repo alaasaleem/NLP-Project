@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic Question Answering System</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: gold;
+        }
+        label {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        input[type="text"], input[type="number"] {
+            width: 80%;
+            padding: 10px;
+            margin: 20px 0;
+            border: 2px solid yellow;
+            background-color: black;
+            color: white;
+            font-size: 1.2em;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: gold;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: darkgoldenrod;
+        }
+        .answer {
+            margin-top: 20px;
+            font-size: 1.2em;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+        }
+        .answer h2 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Arabic Q&A</h1>
+    <form action="/" method="POST">
+        <label for="query">Ask a question!</label><br>
+        <input type="text" id="query" name="query" placeholder="Enter your question..." required><br>
+        <label for="k">Number of Top Documents (K):</label><br>
+        <input type="number" id="k" name="k" value="3" min="1" required><br>
+        <input type="submit" value="Go">
+    </form>
+    {% if query %}
+        <div class="answer">
+            <h2>Query:</h2>
+            <p>{{ query }}</p>
+            {% for answer, document_id in answers %}
+                <h2>Answer:</h2>
+                <p>{{ answer }}</p>
+                <h2>Document ID:</h2>
+                <p>{{ document_id }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
+</html>
